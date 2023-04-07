@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "hgC2XZZeldK4KstJTO3QSDFtmRdbTLrIfnfpQbNbBLf2RGOrHgUod7I2pA7zEu3njuAk52o+upIN9mtm7hdJ7g==",
+  "success": true,
+  "projectFilePath": "D:\\TurboMicroService\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hojjat Zangeneh\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
+    "C:\\Users\\Hojjat Zangeneh\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Hojjat Zangeneh\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Hojjat Zangeneh\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\Hojjat Zangeneh\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\Hojjat Zangeneh\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\Hojjat Zangeneh\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
