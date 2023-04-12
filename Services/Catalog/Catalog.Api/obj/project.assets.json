@@ -1209,23 +1209,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\hojja\\.nuget\\packages\\": {},
+    "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\GitHub\\TurboMicroService\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+      "projectUniqueName": "D:\\TFSRepository\\TurboMicroService\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
       "projectName": "Catalog.Api",
-      "projectPath": "G:\\GitHub\\TurboMicroService\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "G:\\GitHub\\TurboMicroService\\Services\\Catalog\\Catalog.Api\\obj\\",
+      "projectPath": "D:\\TFSRepository\\TurboMicroService\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+      "packagesPath": "C:\\Users\\hojja\\.nuget\\packages\\",
+      "outputPath": "D:\\TFSRepository\\TurboMicroService\\Services\\Catalog\\Catalog.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hojja\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
