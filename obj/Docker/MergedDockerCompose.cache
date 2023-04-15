@@ -1,0 +1,18 @@
+name: dockercompose16827455901832435920
+services:
+  catalog.api:
+    build:
+      context: G:\GitHub\TurboMicroService
+      dockerfile: Services/Catalog/Catalog.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: catalogapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose16827455901832435920_default
