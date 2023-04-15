@@ -1,49 +1,30 @@
 ﻿using Catalog.Api.Data;
 using Catalog.Api.Entities;
+using MongoDB.Driver;
+using System.Xml.Linq;
 
-namespace Catalog.Api.Repositories
-{
-    public class ProductRepository : IProductsRepository
-    {
-        private readonly ICatalogContext catalogContext;
+namespace Catalog.Api.Repositories {
+    public class ProductRepository : IProductsRepository {
+        private readonly ICatalogContext context;
         #region constructor
-        public ProductRepository(ICatalogContext catalogContext) => this.catalogContext = catalogContext;
+        public ProductRepository(ICatalogContext context) => this.context = context;
         #endregion
         #region RepositoryBody
-        public Task CreateProduct(Product product)
-        {
-            throw new NotImplementedException();
+        public async Task CreateProduct(Product product) => await context.Products.InsertOneAsync(product);
+        public async Task<Product> GetProduct(string id) => await context.Products.Find(f => f.Id == id).FirstOrDefaultAsync();
+        public async Task<List<Product>> GetProductByName(string name) => await context.Products.Find(Builders<Product>.Filter.Eq(p => p.Name, name)).ToListAsync();
+        public async Task<IEnumerable<Product>> GetProducts() => await context.Products.Find(p => true).ToListAsync();
+        public async Task<IEnumerable<Product>> GetProductsByCategory(string category) => await context.Products.Find(Builders<Product>.Filter.Eq(p => p.Category, category)).ToListAsync();
+        public async Task<bool> UpdateProduct(Product product) {
+            var updateResult = await context.Products.ReplaceOneAsync(p => p.Id == product.Id, product);
+            return updateResult.IsAcknowledged && updateResult.ModifiedCount > 0;
+        }
+        public async Task<bool> DeleteProduct(string id) {
+            FilterDefinition<Product> filter = Builders<Product>.Filter.Eq(p => p.Id, id);
+            DeleteResult deleteResult = await context.Products.DeleteOneAsync(filter);
+            return deleteResult.IsAcknowledged && deleteResult.DeletedCount > 0;
         }
 
-        public Task<bool> DeleteProduct(string id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<Product> GetProduct(string id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<Product> GetProductByName(string name)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IEnumerable<Product>> GetProducts()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IEnumerable<Product>> GetProductsByCategory(string category)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<bool> UpdateProduct(Product product)
-        {
-            throw new NotImplementedException();
-        } 
         #endregion
     }
 }
