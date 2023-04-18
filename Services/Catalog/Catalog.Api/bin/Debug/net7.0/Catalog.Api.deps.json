@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "Catalog.Api/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.OpenApi": "7.0.4",
-          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.2",
+          "Microsoft.AspNetCore.OpenApi": "7.0.5",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.18.1",
           "MongoDB.Driver": "2.19.1",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
@@ -47,14 +47,14 @@
           }
         }
       },
-      "Microsoft.AspNetCore.OpenApi/7.0.4": {
+      "Microsoft.AspNetCore.OpenApi/7.0.5": {
         "dependencies": {
           "Microsoft.OpenApi": "1.4.3"
         },
         "runtime": {
           "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll": {
-            "assemblyVersion": "7.0.4.0",
-            "fileVersion": "7.0.423.11903"
+            "assemblyVersion": "7.0.5.0",
+            "fileVersion": "7.0.523.17410"
           }
         }
       },
@@ -69,7 +69,7 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.17.2": {},
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.18.1": {},
       "Microsoft.Win32.Registry/5.0.0": {
         "dependencies": {
           "System.Security.AccessControl": "5.0.0",
@@ -245,12 +245,12 @@
       "path": "dnsclient/1.6.1",
       "hashPath": "dnsclient.1.6.1.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.OpenApi/7.0.4": {
+    "Microsoft.AspNetCore.OpenApi/7.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1zlq5/xtbC9AyNHK2EBaL2RuCepoWHAXSxN68io/nndYLOTz/tgGmwtJvDZkUzFYooAXaNlavzcRlgS4muqgOA==",
-      "path": "microsoft.aspnetcore.openapi/7.0.4",
-      "hashPath": "microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512"
+      "sha512": "sha512-yxFvk9BsgL/eDJVsPp0zbUpL73u9uXLYTnWoMBvnJdm8+970YuhM2XWcDOyetjkp8l8z00MHgfYHCRXOnLx/+Q==",
+      "path": "microsoft.aspnetcore.openapi/7.0.5",
+      "hashPath": "microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",
@@ -280,12 +280,12 @@
       "path": "microsoft.openapi/1.4.3",
       "hashPath": "microsoft.openapi.1.4.3.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.17.2": {
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.18.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5daNXm8Hb016oETmuHXiW8jclmRR9CzM7XrOh2htYhQ/7AAYtqntZ1MrZkh09+JTtdjYdGsy2XIMPe9cg83x5w==",
-      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.17.2",
-      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+      "sha512": "sha512-RtNQEQQ/bgaxzrsZEkPB+/DFaUgNiq8GtZz/R4lt+mKXPcEvEuawlbl0PB1s7ND9kvkUVZtMphPxE9Ma1VGiFg==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.18.1",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.18.1.nupkg.sha512"
     },
     "Microsoft.Win32.Registry/5.0.0": {
       "type": "package",

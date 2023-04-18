@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\TurboMicroService\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {}
+    "D:\\GitHub\\TurboMicroService\\Services\\Basket\\Basket.Api\\Basket.Api.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\TurboMicroService\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {
+    "D:\\GitHub\\TurboMicroService\\Services\\Basket\\Basket.Api\\Basket.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\TurboMicroService\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
-        "projectName": "Catalog.Api",
-        "projectPath": "D:\\GitHub\\TurboMicroService\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+        "projectUniqueName": "D:\\GitHub\\TurboMicroService\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
+        "projectName": "Basket.Api",
+        "projectPath": "D:\\GitHub\\TurboMicroService\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
         "packagesPath": "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\TurboMicroService\\Services\\Catalog\\Catalog.Api\\obj\\",
+        "outputPath": "D:\\GitHub\\TurboMicroService\\Services\\Basket\\Basket.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HojjatZangeneh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,17 +44,9 @@
               "target": "Package",
               "version": "[7.0.5, )"
             },
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.18.1, )"
-            },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[2.19.1, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
