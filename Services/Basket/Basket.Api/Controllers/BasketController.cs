@@ -1,5 +1,6 @@
 ﻿using Basket.Api.Entities;
 using Basket.Api.Repositories;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
@@ -28,7 +29,7 @@ namespace Basket.Api.Controllers
         public async Task<ActionResult<ShoppingCart>> UpdateBasket([FromBody] ShoppingCart basket) => Ok(await basketRepository.UpdateBasket(basket));
         #endregion
         #region remove basket
-        [HttpGet("{username}", Name = "DeleteBasket")]
+        [HttpDelete("{username}", Name = "DeleteBasket")]
         [ProducesResponseType(typeof(void), (int)HttpStatusCode.OK)]
         public async Task<IActionResult> DeleteBasket(string username)
         {

@@ -10,8 +10,9 @@
             get
             {
                 decimal totalPrice = 0;
-                foreach (var item in Items)
-                    totalPrice += item.Quantity;
+                if (Items != null && Items.Any())
+                    foreach (var item in Items)
+                        totalPrice += item.Quantity;
                 return totalPrice;
             }
         }
