@@ -31,3 +31,5 @@ G:\GitHub\TurboMicroService\Services\Discount\Discount.Api\obj\Debug\net7.0\refi
 G:\GitHub\TurboMicroService\Services\Discount\Discount.Api\obj\Debug\net7.0\Discount.Api.pdb
 G:\GitHub\TurboMicroService\Services\Discount\Discount.Api\obj\Debug\net7.0\Discount.Api.genruntimeconfig.cache
 G:\GitHub\TurboMicroService\Services\Discount\Discount.Api\obj\Debug\net7.0\ref\Discount.Api.dll
+G:\GitHub\TurboMicroService\Services\Discount\Discount.Api\bin\Debug\net7.0\Dapper.dll
+G:\GitHub\TurboMicroService\Services\Discount\Discount.Api\bin\Debug\net7.0\Npgsql.dll
