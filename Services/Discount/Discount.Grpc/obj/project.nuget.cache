@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JjBVmJVzAjBHGdBzBKC4WXGV4qGH/hWd32NeUzQ2LnjstDVW1cciupb1fRa1M0bE0j4wsB8xfgEfZDI+d0ovUw==",
+  "dgSpecHash": "JGLYLz3zZkd1xLqrtTcTup09C+/4dIqVK+D20d9TWkqid4XJfaU0SzpSAEwbA4Dgr7klPmQ9qlVL5a7FytZ5wg==",
   "success": true,
   "projectFilePath": "G:\\GitHub\\TurboMicroService\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options\\3.0.3\\microsoft.extensions.options.3.0.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.3\\microsoft.extensions.primitives.3.0.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],

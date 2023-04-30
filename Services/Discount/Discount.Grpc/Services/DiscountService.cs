@@ -33,5 +33,60 @@ namespace Discount.Grpc.Services
             };
         }
         #endregion
+        #region Create Discount
+        public override async Task<CouponModel> CreateDiscount(CreateDiscountRequest request, ServerCallContext context)
+        {
+            var coupon = new Entities.Coupon
+            {
+                Id = request.Coupon.Id,
+                Amount = request.Coupon.Amount,
+                Description = request.Coupon.Description,
+                ProductName = request.Coupon.ProductName,
+            };
+            await discountRepository.CreateDiscount(coupon);
+            logger.LogInformation("Discount Create");
+            return new CouponModel
+            {
+                Id = coupon.Id,
+                Amount = coupon.Amount,
+                Description = coupon.Description,
+                ProductName = coupon.ProductName,
+
+            };
+        }
+
+        #endregion
+        #region update discount
+        public override async Task<CouponModel> UpdateDiscount(UpdateDiscountRequest request, ServerCallContext context)
+        {
+            var coupon = new Entities.Coupon
+            {
+                Id = request.Coupon.Id,
+                Amount = request.Coupon.Amount,
+                Description = request.Coupon.Description,
+                ProductName = request.Coupon.ProductName,
+            };
+            await discountRepository.UpdateDiscount(coupon);
+            logger.LogInformation("Discount Update");
+            return new CouponModel
+            {
+                Id = coupon.Id,
+                Amount = coupon.Amount,
+                Description = coupon.Description,
+                ProductName = coupon.ProductName,
+
+            };
+        }
+        #endregion
+        #region delete discount
+        public override async Task<DeleteDiscountResponse> DeleteDiscount(DeleteDiscountRequest request, ServerCallContext context)
+        {
+            var deleted = await discountRepository.DeleteDiscount(request.ProductName);
+            return new DeleteDiscountResponse
+            {
+                Success = deleted
+            };
+        }
+        #endregion
     }
 }
