@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QQVPBKKQRHnR76o3fDpMtjuWr+lJ2q+jlAbimYV4jx/YaKZl8dZ0fZG+Wrb2twimkw3e1TbEIhz3YaZoi0at7g==",
+  "dgSpecHash": "B1vRcLnxn+VD8a+FwtEFFyhVStAjCRIgrcLUBoEr1N4kw6yiChJUUfpgvORC7661+H6oqA5LuiAhyAkYoKX8bg==",
   "success": true,
   "projectFilePath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Api\\Ordering.Api.csproj",
   "expectedPackageFiles": [

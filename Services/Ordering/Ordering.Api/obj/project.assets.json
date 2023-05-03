@@ -107,6 +107,42 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Ordering.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Ordering.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ordering.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ordering.Application.dll": {}
+        }
+      },
+      "Ordering.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Ordering.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ordering.Domain.dll": {}
+        }
+      },
+      "Ordering.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Ordering.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ordering.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ordering.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -451,11 +487,27 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Ordering.Application/1.0.0": {
+      "type": "project",
+      "path": "../Ordering.Application/Ordering.Application.csproj",
+      "msbuildProject": "../Ordering.Application/Ordering.Application.csproj"
+    },
+    "Ordering.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Ordering.Domain/Ordering.Domain.csproj",
+      "msbuildProject": "../Ordering.Domain/Ordering.Domain.csproj"
+    },
+    "Ordering.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Ordering.Infrastructure/Ordering.Infrastructure.csproj",
+      "msbuildProject": "../Ordering.Infrastructure/Ordering.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNetCore.OpenApi >= 7.0.5",
+      "Ordering.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -490,7 +542,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
+              "projectPath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
