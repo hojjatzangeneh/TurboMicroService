@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JGLYLz3zZkd1xLqrtTcTup09C+/4dIqVK+D20d9TWkqid4XJfaU0SzpSAEwbA4Dgr7klPmQ9qlVL5a7FytZ5wg==",
+  "dgSpecHash": "FwkTpT3DhOE8LkC/EIhTzsZCwhNfNB3wlZGZfMlDX6IXARxnyCy06As+LsOFzMHXGvJHdIN+d4mLGsihgxDQkg==",
   "success": true,
   "projectFilePath": "G:\\GitHub\\TurboMicroService\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
   "expectedPackageFiles": [

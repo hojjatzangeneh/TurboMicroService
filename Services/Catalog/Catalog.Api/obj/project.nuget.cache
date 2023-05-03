@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6tAeiESVdK1vjyts7nbql9qzX7UHKUajhSJvSWyFBAuzts8WdNNp8lgwMxhZsww8AbOUSzEYpr/KM6pgFwM8lA==",
+  "dgSpecHash": "1bVSjzEbq4FO0YkFgv1GDgX2NE+HYhQCrW/6MYlFL09YOdsMipdlQDJPGgnRTk1D8TTXxuHdQftohi+zHMIeIA==",
   "success": true,
   "projectFilePath": "G:\\GitHub\\TurboMicroService\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
   "expectedPackageFiles": [
