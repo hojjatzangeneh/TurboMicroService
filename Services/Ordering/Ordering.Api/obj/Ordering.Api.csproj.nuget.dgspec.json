@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Api\\Ordering.Api.csproj": {}
+    "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Api\\Ordering.Api.csproj": {}
   },
   "projects": {
-    "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Api\\Ordering.Api.csproj": {
+    "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Api\\Ordering.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Api\\Ordering.Api.csproj",
+        "projectUniqueName": "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Api\\Ordering.Api.csproj",
         "projectName": "Ordering.Api",
-        "projectPath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Api\\Ordering.Api.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Api\\obj\\",
+        "projectPath": "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Api\\Ordering.Api.csproj",
+        "packagesPath": "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\HojjatZangeneh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
-                "projectPath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj"
+              "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
+                "projectPath": "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj"
               }
             }
           }
@@ -80,21 +76,17 @@
         }
       }
     },
-    "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj": {
+    "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
+        "projectUniqueName": "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
         "projectName": "Ordering.Application",
-        "projectPath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Application\\obj\\",
+        "projectPath": "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
+        "packagesPath": "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\HojjatZangeneh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,8 +100,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
-                "projectPath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj"
+              "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
+                "projectPath": "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj"
               }
             }
           }
@@ -123,6 +115,24 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -143,21 +153,17 @@
         }
       }
     },
-    "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
+    "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+        "projectUniqueName": "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
         "projectName": "Ordering.Domain",
-        "projectPath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Domain\\obj\\",
+        "projectPath": "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+        "packagesPath": "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\HojjatZangeneh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -202,21 +208,17 @@
         }
       }
     },
-    "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
+    "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
+        "projectUniqueName": "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
         "projectName": "Ordering.Infrastructure",
-        "projectPath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\obj\\",
+        "projectPath": "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\HojjatZangeneh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -230,8 +232,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj": {
-                "projectPath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj"
+              "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj": {
+                "projectPath": "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj"
               }
             }
           }

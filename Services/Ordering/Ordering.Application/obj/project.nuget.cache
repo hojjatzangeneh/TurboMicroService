@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "sv+uiCwNj9G5xCirkYEpQlKzLn55/Qtvd2RkPLh7/d4I2Iy2MxGv8SFipZFGIklDY5V4ylGnj9G3Nt+3PjelzA==",
+  "dgSpecHash": "9k6iINF8jvx/t3VPi/Prf7Aa2hkUs295G2VANlqejrysBD3kwy7lAE4Tj7kmcvGRXSVeuLcLlUNues3KfqYWlw==",
   "success": true,
-  "projectFilePath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\GitHub\\TurboMicroService\\hojjatzangeneh\\TurboMicroService\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

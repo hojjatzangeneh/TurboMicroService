@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Services",
+    "\\Services\\Ordering",
+    "\\Services\\Ordering\\Ordering.Application",
+    "\\Services\\Ordering\\Ordering.Application\\bin",
+    "\\Services\\Ordering\\Ordering.Application\\Exceptions",
+    "\\Services\\Ordering\\Ordering.Domain",
+    "\\Services\\Ordering\\Ordering.Domain\\bin"
   ],
-  "SelectedNode": "\\TurboMicroService.sln",
   "PreviewInSolutionExplorer": false
 }
