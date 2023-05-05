@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using FluentValidation.Results;
+using System.Collections.Concurrent;
 
 namespace Ordering.Application.Exceptions
 {
-    internal class ValidationException
+    public class ValidationException : ApplicationException
     {
+        public IDictionary<string, string[]> Errors { get; set; }
+        public ValidationException() : base("one or more validation fail") { Errors = new ConcurrentDictionary<string, string[]>(); }
+        public ValidationException(IEnumerable<ValidationFailure> failures) : this()
+        {
+            Errors = failures.GroupBy(s => s.PropertyName, e => e.ErrorMessage).ToDictionary(failureGroup => failureGroup.Key, failureGroup => failureGroup.ToArray()));
+        }
     }
 }
