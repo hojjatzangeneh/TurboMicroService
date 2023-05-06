@@ -9,7 +9,7 @@ namespace Ordering.Application.Exceptions
         public ValidationException() : base("one or more validation fail") { Errors = new ConcurrentDictionary<string, string[]>(); }
         public ValidationException(IEnumerable<ValidationFailure> failures) : this()
         {
-            Errors = failures.GroupBy(s => s.PropertyName, e => e.ErrorMessage).ToDictionary(failureGroup => failureGroup.Key, failureGroup => failureGroup.ToArray()));
+            Errors = failures.GroupBy(s => s.PropertyName, e => e.ErrorMessage).ToDictionary(failureGroup => failureGroup.Key, failureGroup => failureGroup.ToArray());
         }
     }
 }
