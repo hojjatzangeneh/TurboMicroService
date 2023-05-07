@@ -1,0 +1,15 @@
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Application\obj\Debug\net7.0\Ordering.Application.csproj.AssemblyReference.cache
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Application\obj\Debug\net7.0\Ordering.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Application\obj\Debug\net7.0\Ordering.Application.AssemblyInfoInputs.cache
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Application\obj\Debug\net7.0\Ordering.Application.AssemblyInfo.cs
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Application\obj\Debug\net7.0\Ordering.Application.csproj.CoreCompileInputs.cache
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Application\bin\Debug\net7.0\Ordering.Application.deps.json
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Application\bin\Debug\net7.0\Ordering.Application.dll
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Application\bin\Debug\net7.0\Ordering.Application.pdb
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Application\bin\Debug\net7.0\Ordering.Domain.dll
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Application\bin\Debug\net7.0\Ordering.Domain.pdb
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Application\obj\Debug\net7.0\Ordering.Application.csproj.CopyComplete
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Application\obj\Debug\net7.0\Ordering.Application.dll
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Application\obj\Debug\net7.0\refint\Ordering.Application.dll
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Application\obj\Debug\net7.0\Ordering.Application.pdb
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Application\obj\Debug\net7.0\ref\Ordering.Application.dll

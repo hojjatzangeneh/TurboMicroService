@@ -7,15 +7,14 @@ using System.Threading.Tasks;
 
 namespace Ordering.Application.Features.Orders.Commands.UpdateOrder
 {
-    public class UpdateOrderCommandValidation:AbstractValidator<UpdateOrderCommand>
+    public class UpdateOrderCommandValidation : AbstractValidator<UpdateOrderCommand>
     {
-        RuleFor(a => a.Username).NotEmpty().WithMessage("{Username} is required")
-                .NotNull()
-                .MaximumLength(50).WithMessage("{Username} must not exceed 50 characters");
-
-        RuleFor(a => a.EmailAddress).NotEmpty().WithMessage("{Email} is required");
-
-        RuleFor(a => a.TotalPrice).NotEmpty().WithMessage("{TotalPrice} is required").
-                GreaterThan(0).WithMessage("{TotalPrice} should be greater than 0");
+        public UpdateOrderCommandValidation()
+        {
+            RuleFor(a => a.Username).NotEmpty().WithMessage("{Username} is required").NotNull().MaximumLength(50).WithMessage("{Username} must not exceed 50 characters");
+            RuleFor(a => a.EmailAddress).NotEmpty().WithMessage("{Email} is required");
+            RuleFor(a => a.TotalPrice).NotEmpty().WithMessage("{TotalPrice} is required").
+                    GreaterThan(0).WithMessage("{TotalPrice} should be greater than 0");
+        }
     }
 }

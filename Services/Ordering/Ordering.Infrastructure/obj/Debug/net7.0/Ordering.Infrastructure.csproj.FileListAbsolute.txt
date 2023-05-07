@@ -1,0 +1,17 @@
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.csproj.AssemblyReference.cache
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.AssemblyInfoInputs.cache
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.AssemblyInfo.cs
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.csproj.CoreCompileInputs.cache
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Infrastructure.deps.json
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Infrastructure.dll
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Infrastructure.pdb
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Application.dll
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Domain.dll
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Application.pdb
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Domain.pdb
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.csproj.CopyComplete
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.dll
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Infrastructure\obj\Debug\net7.0\refint\Ordering.Infrastructure.dll
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.pdb
+D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Infrastructure\obj\Debug\net7.0\ref\Ordering.Infrastructure.dll
