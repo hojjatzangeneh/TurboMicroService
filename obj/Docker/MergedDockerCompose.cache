@@ -1,8 +1,8 @@
-name: dockercompose11550902164517389855
+name: dockercompose16827455901832435920
 services:
   basket.api:
     build:
-      context: D:\GitHub\TurboMicroService
+      context: G:\GitHub\TurboMicroService
       dockerfile: Services/Basket/Basket.Api/Dockerfile
     container_name: basket.api
     depends_on:
@@ -33,7 +33,7 @@ services:
     restart: always
   catalog.api:
     build:
-      context: D:\GitHub\TurboMicroService
+      context: G:\GitHub\TurboMicroService
       dockerfile: Services/Catalog/Catalog.Api/Dockerfile
     container_name: catalog.api
     depends_on:
@@ -68,7 +68,7 @@ services:
       volume: {}
   discount.api:
     build:
-      context: D:\GitHub\TurboMicroService
+      context: G:\GitHub\TurboMicroService
       dockerfile: Services/Discount/Discount.Api/Dockerfile
     container_name: discount.api
     depends_on:
@@ -89,7 +89,7 @@ services:
     restart: always
   discount.grpc:
     build:
-      context: D:\GitHub\TurboMicroService
+      context: G:\GitHub\TurboMicroService
       dockerfile: Services/Discount/Discount.Grpc/Dockerfile
     container_name: discount.grpc
     depends_on:
@@ -187,13 +187,13 @@ services:
       volume: {}
 networks:
   default:
-    name: dockercompose11550902164517389855_default
+    name: dockercompose16827455901832435920_default
 volumes:
   mongo_data:
-    name: dockercompose11550902164517389855_mongo_data
+    name: dockercompose16827455901832435920_mongo_data
   pgadmin_data:
-    name: dockercompose11550902164517389855_pgadmin_data
+    name: dockercompose16827455901832435920_pgadmin_data
   portainer_data:
-    name: dockercompose11550902164517389855_portainer_data
+    name: dockercompose16827455901832435920_portainer_data
   postgres_data:
-    name: dockercompose11550902164517389855_postgres_data
+    name: dockercompose16827455901832435920_postgres_data

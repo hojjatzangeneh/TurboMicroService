@@ -1,8 +1,8 @@
-name: dockercompose11550902164517389855
+name: dockercompose16827455901832435920
 services:
   basket.api:
     build:
-      context: D:\GitHub\TurboMicroService
+      context: G:\GitHub\TurboMicroService
       dockerfile: Services/Basket/Basket.Api/Dockerfile
       labels:
         com.microsoft.created-by: visual-studio
@@ -22,10 +22,11 @@ services:
       CacheSettings:ConnectionString:basketdb:6379: null
       DOTNET_USE_POLLING_FILE_WATCHER: "1"
       GrpcSettings:DiscountUrl: http://discount.grpc
-      NUGET_FALLBACK_PACKAGES: ""
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
     image: basketapi:dev
     labels:
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  ""'
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/net7.0/Basket.Api.dll"'
       com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
         dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
@@ -40,34 +41,40 @@ services:
     tty: true
     volumes:
     - type: bind
-      source: D:\GitHub\TurboMicroService\Services\Basket\Basket.Api
+      source: G:\GitHub\TurboMicroService\Services\Basket\Basket.Api
       target: /app
       bind:
         create_host_path: true
     - type: bind
-      source: D:\GitHub\TurboMicroService
+      source: G:\GitHub\TurboMicroService
       target: /src
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\HojjatZangeneh\vsdbg\vs2017u5
+      source: C:\Users\user\vsdbg\vs2017u5
       target: /remote_debugger
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\HojjatZangeneh\.nuget\packages\
+      source: C:\Users\user\.nuget\packages\
       target: /root/.nuget/packages
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\HojjatZangeneh\AppData\Roaming/ASP.NET/Https
+      source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
+      target: /root/.nuget/fallbackpackages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\user\AppData\Roaming/ASP.NET/Https
       target: /root/.aspnet/https
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\HojjatZangeneh\AppData\Roaming/Microsoft/UserSecrets
+      source: C:\Users\user\AppData\Roaming/Microsoft/UserSecrets
       target: /root/.microsoft/usersecrets
       read_only: true
       bind:
@@ -85,7 +92,7 @@ services:
     restart: always
   catalog.api:
     build:
-      context: D:\GitHub\TurboMicroService
+      context: G:\GitHub\TurboMicroService
       dockerfile: Services/Catalog/Catalog.Api/Dockerfile
       labels:
         com.microsoft.created-by: visual-studio
@@ -104,10 +111,11 @@ services:
       ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
       DOTNET_USE_POLLING_FILE_WATCHER: "1"
       DatabaseSettings:ConnectionString:mongodb://catalogdb:27017: null
-      NUGET_FALLBACK_PACKAGES: ""
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
     image: catalogapi:dev
     labels:
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  ""'
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/net7.0/Catalog.Api.dll"'
       com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
         dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
@@ -122,34 +130,40 @@ services:
     tty: true
     volumes:
     - type: bind
-      source: D:\GitHub\TurboMicroService\Services\Catalog\Catalog.Api
+      source: G:\GitHub\TurboMicroService\Services\Catalog\Catalog.Api
       target: /app
       bind:
         create_host_path: true
     - type: bind
-      source: D:\GitHub\TurboMicroService
+      source: G:\GitHub\TurboMicroService
       target: /src
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\HojjatZangeneh\vsdbg\vs2017u5
+      source: C:\Users\user\vsdbg\vs2017u5
       target: /remote_debugger
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\HojjatZangeneh\.nuget\packages\
+      source: C:\Users\user\.nuget\packages\
       target: /root/.nuget/packages
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\HojjatZangeneh\AppData\Roaming/ASP.NET/Https
+      source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
+      target: /root/.nuget/fallbackpackages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\user\AppData\Roaming/ASP.NET/Https
       target: /root/.aspnet/https
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\HojjatZangeneh\AppData\Roaming/Microsoft/UserSecrets
+      source: C:\Users\user\AppData\Roaming/Microsoft/UserSecrets
       target: /root/.microsoft/usersecrets
       read_only: true
       bind:
@@ -172,7 +186,7 @@ services:
       volume: {}
   discount.api:
     build:
-      context: D:\GitHub\TurboMicroService
+      context: G:\GitHub\TurboMicroService
       dockerfile: Services/Discount/Discount.Api/Dockerfile
       labels:
         com.microsoft.created-by: visual-studio
@@ -192,10 +206,11 @@ services:
       DOTNET_USE_POLLING_FILE_WATCHER: "1"
       DatabaseSettings:ConnectionString: Server=discountdb;Port=5432;Database=DiscountDb;User
         Id=admin;Password=admin1234
-      NUGET_FALLBACK_PACKAGES: ""
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
     image: discountapi:dev
     labels:
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  ""'
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/net7.0/Discount.Api.dll"'
       com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
         dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
@@ -211,41 +226,47 @@ services:
     tty: true
     volumes:
     - type: bind
-      source: D:\GitHub\TurboMicroService\Services\Discount\Discount.Api
+      source: G:\GitHub\TurboMicroService\Services\Discount\Discount.Api
       target: /app
       bind:
         create_host_path: true
     - type: bind
-      source: D:\GitHub\TurboMicroService
+      source: G:\GitHub\TurboMicroService
       target: /src
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\HojjatZangeneh\vsdbg\vs2017u5
+      source: C:\Users\user\vsdbg\vs2017u5
       target: /remote_debugger
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\HojjatZangeneh\.nuget\packages\
+      source: C:\Users\user\.nuget\packages\
       target: /root/.nuget/packages
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\HojjatZangeneh\AppData\Roaming/ASP.NET/Https
+      source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
+      target: /root/.nuget/fallbackpackages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\user\AppData\Roaming/ASP.NET/Https
       target: /root/.aspnet/https
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\HojjatZangeneh\AppData\Roaming/Microsoft/UserSecrets
+      source: C:\Users\user\AppData\Roaming/Microsoft/UserSecrets
       target: /root/.microsoft/usersecrets
       read_only: true
       bind:
         create_host_path: true
   discount.grpc:
     build:
-      context: D:\GitHub\TurboMicroService
+      context: G:\GitHub\TurboMicroService
       dockerfile: Services/Discount/Discount.Grpc/Dockerfile
       labels:
         com.microsoft.created-by: visual-studio
@@ -265,10 +286,11 @@ services:
       DOTNET_USE_POLLING_FILE_WATCHER: "1"
       DatabaseSettings:ConnectionString: Server=discountdb;Port=5432;Database=DiscountDb;User
         Id=admin;Password=admin1234
-      NUGET_FALLBACK_PACKAGES: ""
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
     image: discountgrpc:dev
     labels:
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  ""'
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/net7.0/Discount.Grpc.dll"'
       com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
         dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
@@ -283,34 +305,40 @@ services:
     tty: true
     volumes:
     - type: bind
-      source: D:\GitHub\TurboMicroService\Services\Discount\Discount.Grpc
+      source: G:\GitHub\TurboMicroService\Services\Discount\Discount.Grpc
       target: /app
       bind:
         create_host_path: true
     - type: bind
-      source: D:\GitHub\TurboMicroService
+      source: G:\GitHub\TurboMicroService
       target: /src
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\HojjatZangeneh\vsdbg\vs2017u5
+      source: C:\Users\user\vsdbg\vs2017u5
       target: /remote_debugger
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\HojjatZangeneh\.nuget\packages\
+      source: C:\Users\user\.nuget\packages\
       target: /root/.nuget/packages
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\HojjatZangeneh\AppData\Roaming/ASP.NET/Https
+      source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
+      target: /root/.nuget/fallbackpackages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\user\AppData\Roaming/ASP.NET/Https
       target: /root/.aspnet/https
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\HojjatZangeneh\AppData\Roaming/Microsoft/UserSecrets
+      source: C:\Users\user\AppData\Roaming/Microsoft/UserSecrets
       target: /root/.microsoft/usersecrets
       read_only: true
       bind:
@@ -395,13 +423,13 @@ services:
       volume: {}
 networks:
   default:
-    name: dockercompose11550902164517389855_default
+    name: dockercompose16827455901832435920_default
 volumes:
   mongo_data:
-    name: dockercompose11550902164517389855_mongo_data
+    name: dockercompose16827455901832435920_mongo_data
   pgadmin_data:
-    name: dockercompose11550902164517389855_pgadmin_data
+    name: dockercompose16827455901832435920_pgadmin_data
   portainer_data:
-    name: dockercompose11550902164517389855_portainer_data
+    name: dockercompose16827455901832435920_portainer_data
   postgres_data:
-    name: dockercompose11550902164517389855_postgres_data
+    name: dockercompose16827455901832435920_postgres_data

@@ -3410,19 +3410,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
+      "projectUniqueName": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
       "projectName": "Ordering.Infrastructure",
-      "projectPath": "D:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\obj\\",
+      "projectPath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\HojjatZangeneh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3436,8 +3441,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj": {
-              "projectPath": "D:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj"
+            "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj": {
+              "projectPath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj"
             }
           }
         }
