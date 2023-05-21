@@ -16,8 +16,8 @@ namespace Ordering.Application.Features.Orders.Commands.DeleteOrder
     {
         private readonly IOrderRepository orderRepository;
         private readonly IMapper mapper;
-        private readonly ILogger logger;
-        public DeleteOrderCommandHandler(IOrderRepository orderRepository, IMapper mapper, ILogger logger)
+        private readonly ILogger<DeleteOrderCommandHandler> logger;
+        public DeleteOrderCommandHandler(IOrderRepository orderRepository, IMapper mapper, ILogger<DeleteOrderCommandHandler> logger)
         {
             this.orderRepository = orderRepository;
             this.mapper = mapper;
