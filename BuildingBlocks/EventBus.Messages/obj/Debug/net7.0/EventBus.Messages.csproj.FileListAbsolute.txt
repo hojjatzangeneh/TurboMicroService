@@ -1,0 +1,12 @@
+G:\GitHub\TurboMicroService\BuildingBlocks\EventBus.Messages\bin\Debug\net7.0\EventBus.Messages.deps.json
+G:\GitHub\TurboMicroService\BuildingBlocks\EventBus.Messages\bin\Debug\net7.0\EventBus.Messages.dll
+G:\GitHub\TurboMicroService\BuildingBlocks\EventBus.Messages\bin\Debug\net7.0\EventBus.Messages.pdb
+G:\GitHub\TurboMicroService\BuildingBlocks\EventBus.Messages\obj\Debug\net7.0\EventBus.Messages.csproj.AssemblyReference.cache
+G:\GitHub\TurboMicroService\BuildingBlocks\EventBus.Messages\obj\Debug\net7.0\EventBus.Messages.GeneratedMSBuildEditorConfig.editorconfig
+G:\GitHub\TurboMicroService\BuildingBlocks\EventBus.Messages\obj\Debug\net7.0\EventBus.Messages.AssemblyInfoInputs.cache
+G:\GitHub\TurboMicroService\BuildingBlocks\EventBus.Messages\obj\Debug\net7.0\EventBus.Messages.AssemblyInfo.cs
+G:\GitHub\TurboMicroService\BuildingBlocks\EventBus.Messages\obj\Debug\net7.0\EventBus.Messages.csproj.CoreCompileInputs.cache
+G:\GitHub\TurboMicroService\BuildingBlocks\EventBus.Messages\obj\Debug\net7.0\EventBus.Messages.dll
+G:\GitHub\TurboMicroService\BuildingBlocks\EventBus.Messages\obj\Debug\net7.0\refint\EventBus.Messages.dll
+G:\GitHub\TurboMicroService\BuildingBlocks\EventBus.Messages\obj\Debug\net7.0\EventBus.Messages.pdb
+G:\GitHub\TurboMicroService\BuildingBlocks\EventBus.Messages\obj\Debug\net7.0\ref\EventBus.Messages.dll
