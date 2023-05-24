@@ -1,5 +1,6 @@
 using EventBus.Messages.Common;
 using MassTransit;
+using Ordering.Api.EventCheckoutConsumer;
 using Ordering.Api.Extensions;
 using Ordering.Application;
 using Ordering.Infrastructure;
