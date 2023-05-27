@@ -20,9 +20,7 @@ builder.Services.AddMassTransit(config => { config.UsingRabbitMq((ctx, conf) => 
 }); });
 builder.Services.AddMassTransitHostedService();
 builder.Services.AddAutoMapper(typeof(Program));
-// Add services to the container.
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Basket.Api", Version = "v1" }); });
 var app = builder.Build();

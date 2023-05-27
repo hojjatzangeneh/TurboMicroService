@@ -10,3 +10,15 @@ D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Domain\obj\Debug\net7.0\O
 D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Domain\obj\Debug\net7.0\refint\Ordering.Domain.dll
 D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.pdb
 D:\GitHub\TurboMicroService\Services\Ordering\Ordering.Domain\obj\Debug\net7.0\ref\Ordering.Domain.dll
+G:\GitHub\TurboMicroService\Services\Ordering\Ordering.Domain\bin\Debug\net7.0\Ordering.Domain.deps.json
+G:\GitHub\TurboMicroService\Services\Ordering\Ordering.Domain\bin\Debug\net7.0\Ordering.Domain.dll
+G:\GitHub\TurboMicroService\Services\Ordering\Ordering.Domain\bin\Debug\net7.0\Ordering.Domain.pdb
+G:\GitHub\TurboMicroService\Services\Ordering\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.csproj.AssemblyReference.cache
+G:\GitHub\TurboMicroService\Services\Ordering\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\GitHub\TurboMicroService\Services\Ordering\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.AssemblyInfoInputs.cache
+G:\GitHub\TurboMicroService\Services\Ordering\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.AssemblyInfo.cs
+G:\GitHub\TurboMicroService\Services\Ordering\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.csproj.CoreCompileInputs.cache
+G:\GitHub\TurboMicroService\Services\Ordering\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.dll
+G:\GitHub\TurboMicroService\Services\Ordering\Ordering.Domain\obj\Debug\net7.0\refint\Ordering.Domain.dll
+G:\GitHub\TurboMicroService\Services\Ordering\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.pdb
+G:\GitHub\TurboMicroService\Services\Ordering\Ordering.Domain\obj\Debug\net7.0\ref\Ordering.Domain.dll

@@ -16,15 +16,16 @@ builder.Services.AddInfrastructureServices(builder.Configuration);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddMassTransit(config => {
     config.AddConsumer<BasketCheckoutConsumer>();
     config.UsingRabbitMq((ctx, conf) => {
         conf.Host(builder.Configuration.GetValue<string>("EventBusSettings:HostAddress"));
-        conf.ReceiveEndpoint(EventBusConstants.BasketCheckoutQueue, c => { c.ConfigureConsumers<BasketCheckoutConsumer>(ctx); } );
+        conf.ReceiveEndpoint(EventBusConstants.BasketCheckoutQueue, c => { c.ConfigureConsumer<BasketCheckoutConsumer>(ctx); } );
     });
 });
 builder.Services.AddMassTransitHostedService();
-//builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddScoped<BasketCheckoutConsumer>();
 builder.Services.AddHttpLogging(httpLogging =>
 {
     httpLogging.LoggingFields= Microsoft.AspNetCore.HttpLogging.HttpLoggingFields.All;
