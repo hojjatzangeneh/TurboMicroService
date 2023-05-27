@@ -94,10 +94,18 @@ services:
       -  discountdb
 
   ordering.api:
+    container_name: ordering.api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - "ConnectionStrings:OrderingConnectionString=server=orderdb;Database=OrderDb;User Id=sa;Password=SwN12345678"
+      - "ConnectionStrings:OrderingConnectionString=server=orderdb;Database=OrderDb;User Id=sa;Password=SwN12345678;TrustServerCertificate=True"
     depends_on:
       -  orderdb
     ports:
       - "8004:80"
+
+  rabbitmq:
+    container_name: rabbitmq
+    restart: always
+    ports:
+        - "5672:5672"
+        - "15672:15672" 

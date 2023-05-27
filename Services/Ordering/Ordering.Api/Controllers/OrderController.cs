@@ -40,7 +40,7 @@ namespace Ordering.Api.Controllers
         }
         #endregion
         #region update order
-        [HttpPost(Name = "UpdateOrder")]
+        [HttpPut(Name = "UpdateOrder")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesDefaultResponseType]

@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 name: dockercompose11550902164517389855
 services:
   basket.api:
     build:
       context: D:\GitHub\TurboMicroService
+=======
+name: dockercompose16827455901832435920
+services:
+  basket.api:
+    build:
+      context: G:\GitHub\TurboMicroService
+>>>>>>> 67ed74c5ba8d4e12584d9122406d210cd10aea0c
       dockerfile: Services/Basket/Basket.Api/Dockerfile
     container_name: basket.api
     depends_on:
@@ -33,7 +41,11 @@ services:
     restart: always
   catalog.api:
     build:
+<<<<<<< HEAD
       context: D:\GitHub\TurboMicroService
+=======
+      context: G:\GitHub\TurboMicroService
+>>>>>>> 67ed74c5ba8d4e12584d9122406d210cd10aea0c
       dockerfile: Services/Catalog/Catalog.Api/Dockerfile
     container_name: catalog.api
     depends_on:
@@ -68,7 +80,11 @@ services:
       volume: {}
   discount.api:
     build:
+<<<<<<< HEAD
       context: D:\GitHub\TurboMicroService
+=======
+      context: G:\GitHub\TurboMicroService
+>>>>>>> 67ed74c5ba8d4e12584d9122406d210cd10aea0c
       dockerfile: Services/Discount/Discount.Api/Dockerfile
     container_name: discount.api
     depends_on:
@@ -89,7 +105,11 @@ services:
     restart: always
   discount.grpc:
     build:
+<<<<<<< HEAD
       context: D:\GitHub\TurboMicroService
+=======
+      context: G:\GitHub\TurboMicroService
+>>>>>>> 67ed74c5ba8d4e12584d9122406d210cd10aea0c
       dockerfile: Services/Discount/Discount.Grpc/Dockerfile
     container_name: discount.grpc
     depends_on:
@@ -143,15 +163,25 @@ services:
     restart: always
   ordering.api:
     build:
+<<<<<<< HEAD
       context: D:\GitHub\TurboMicroService
       dockerfile: Services/Ordering/Ordering.Api/Dockerfile
+=======
+      context: G:\GitHub\TurboMicroService
+      dockerfile: Services/Ordering/Ordering.Api/Dockerfile
+    container_name: ordering.api
+>>>>>>> 67ed74c5ba8d4e12584d9122406d210cd10aea0c
     depends_on:
       orderdb:
         condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ConnectionStrings:OrderingConnectionString: server=orderdb;Database=OrderDb;User
+<<<<<<< HEAD
         Id=sa;Password=SwN12345678
+=======
+        Id=sa;Password=SwN12345678;TrustServerCertificate=True
+>>>>>>> 67ed74c5ba8d4e12584d9122406d210cd10aea0c
     image: orderingapi
     networks:
       default: null
@@ -204,6 +234,7 @@ services:
       source: portainer_data
       target: /data
       volume: {}
+<<<<<<< HEAD
 networks:
   default:
     name: dockercompose11550902164517389855_default
@@ -216,3 +247,32 @@ volumes:
     name: dockercompose11550902164517389855_portainer_data
   postgres_data:
     name: dockercompose11550902164517389855_postgres_data
+=======
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management-alpine
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5672
+      published: "5672"
+      protocol: tcp
+    - mode: ingress
+      target: 15672
+      published: "15672"
+      protocol: tcp
+    restart: always
+networks:
+  default:
+    name: dockercompose16827455901832435920_default
+volumes:
+  mongo_data:
+    name: dockercompose16827455901832435920_mongo_data
+  pgadmin_data:
+    name: dockercompose16827455901832435920_pgadmin_data
+  portainer_data:
+    name: dockercompose16827455901832435920_portainer_data
+  postgres_data:
+    name: dockercompose16827455901832435920_postgres_data
+>>>>>>> 67ed74c5ba8d4e12584d9122406d210cd10aea0c

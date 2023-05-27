@@ -16,8 +16,8 @@ namespace Ordering.Application.Features.Orders.Commands.UpdateOrder
     {
         private readonly IOrderRepository orderRepository;
         private readonly IMapper mapper;
-        private readonly ILogger logger;
-        public UpdateOrderCommandHandler(IOrderRepository orderRepository, IMapper mapper, ILogger logger)
+        private readonly ILogger<UpdateOrderCommandHandler> logger;
+        public UpdateOrderCommandHandler(IOrderRepository orderRepository, IMapper mapper, ILogger<UpdateOrderCommandHandler> logger)
         {
             this.orderRepository = orderRepository;
             this.mapper = mapper;

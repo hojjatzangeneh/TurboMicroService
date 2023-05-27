@@ -141,6 +141,26 @@ services:
       published: "1433"
       protocol: tcp
     restart: always
+  ordering.api:
+    build:
+      context: G:\GitHub\TurboMicroService
+      dockerfile: Services/Ordering/Ordering.Api/Dockerfile
+    container_name: ordering.api
+    depends_on:
+      orderdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:OrderingConnectionString: server=orderdb;Database=OrderDb;User
+        Id=sa;Password=SwN12345678;TrustServerCertificate=True
+    image: orderingapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8004"
+      protocol: tcp
   pgadmin:
     container_name: pgadmin
     environment:
