@@ -8,24 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\GitHub\\TurboMicroService\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
+      "projectUniqueName": "D:\\GitHub\\TurboMicroService\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
       "projectName": "EventBus.Messages",
-      "projectPath": "G:\\GitHub\\TurboMicroService\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "G:\\GitHub\\TurboMicroService\\BuildingBlocks\\EventBus.Messages\\obj\\",
+      "projectPath": "D:\\GitHub\\TurboMicroService\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
+      "packagesPath": "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\TurboMicroService\\BuildingBlocks\\EventBus.Messages\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\HojjatZangeneh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
