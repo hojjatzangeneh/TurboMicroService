@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 name: dockercompose11550902164517389855
 services:
   basket.api:
     build:
       context: D:\GitHub\TurboMicroService
+=======
+name: dockercompose16827455901832435920
+services:
+  basket.api:
+    build:
+      context: G:\GitHub\TurboMicroService
+>>>>>>> 52e814670e84b23177bf6b6a4a0cb9afb35fe9c9
       dockerfile: Services/Basket/Basket.Api/Dockerfile
     container_name: basket.api
     depends_on:
@@ -13,7 +21,11 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       CacheSettings:ConnectionString:basketdb:6379: null
+<<<<<<< HEAD
       EventBusSettings:HostAddress:amqp://guest:guest@rabbitmq:5672: null
+=======
+      EventBusSettings:HostAddress: amqp://guest:guest@rabbitmq:5672
+>>>>>>> 52e814670e84b23177bf6b6a4a0cb9afb35fe9c9
       GrpcSettings:DiscountUrl: http://discount.grpc
     image: basketapi
     networks:
@@ -36,7 +48,11 @@ services:
     restart: always
   catalog.api:
     build:
+<<<<<<< HEAD
       context: D:\GitHub\TurboMicroService
+=======
+      context: G:\GitHub\TurboMicroService
+>>>>>>> 52e814670e84b23177bf6b6a4a0cb9afb35fe9c9
       dockerfile: Services/Catalog/Catalog.Api/Dockerfile
     container_name: catalog.api
     depends_on:
@@ -71,7 +87,11 @@ services:
       volume: {}
   discount.api:
     build:
+<<<<<<< HEAD
       context: D:\GitHub\TurboMicroService
+=======
+      context: G:\GitHub\TurboMicroService
+>>>>>>> 52e814670e84b23177bf6b6a4a0cb9afb35fe9c9
       dockerfile: Services/Discount/Discount.Api/Dockerfile
     container_name: discount.api
     depends_on:
@@ -92,7 +112,11 @@ services:
     restart: always
   discount.grpc:
     build:
+<<<<<<< HEAD
       context: D:\GitHub\TurboMicroService
+=======
+      context: G:\GitHub\TurboMicroService
+>>>>>>> 52e814670e84b23177bf6b6a4a0cb9afb35fe9c9
       dockerfile: Services/Discount/Discount.Grpc/Dockerfile
     container_name: discount.grpc
     depends_on:
@@ -146,7 +170,11 @@ services:
     restart: always
   ordering.api:
     build:
+<<<<<<< HEAD
       context: D:\GitHub\TurboMicroService
+=======
+      context: G:\GitHub\TurboMicroService
+>>>>>>> 52e814670e84b23177bf6b6a4a0cb9afb35fe9c9
       dockerfile: Services/Ordering/Ordering.Api/Dockerfile
     container_name: ordering.api
     depends_on:
@@ -158,7 +186,11 @@ services:
       ASPNETCORE_ENVIRONMENT: Development
       ConnectionStrings:OrderingConnectionString: server=orderdb;Database=OrderDb;User
         Id=sa;Password=SwN12345678;TrustServerCertificate=True
+<<<<<<< HEAD
       EventBusSettings:HostAddress:amqp://guest:guest@rabbitmq:5672: null
+=======
+      EventBusSettings:HostAddress: amqp://guest:guest@rabbitmq:5672
+>>>>>>> 52e814670e84b23177bf6b6a4a0cb9afb35fe9c9
     image: orderingapi
     networks:
       default: null
@@ -228,6 +260,7 @@ services:
     restart: always
 networks:
   default:
+<<<<<<< HEAD
     name: dockercompose11550902164517389855_default
 volumes:
   mongo_data:
@@ -238,3 +271,15 @@ volumes:
     name: dockercompose11550902164517389855_portainer_data
   postgres_data:
     name: dockercompose11550902164517389855_postgres_data
+=======
+    name: dockercompose16827455901832435920_default
+volumes:
+  mongo_data:
+    name: dockercompose16827455901832435920_mongo_data
+  pgadmin_data:
+    name: dockercompose16827455901832435920_pgadmin_data
+  portainer_data:
+    name: dockercompose16827455901832435920_portainer_data
+  postgres_data:
+    name: dockercompose16827455901832435920_postgres_data
+>>>>>>> 52e814670e84b23177bf6b6a4a0cb9afb35fe9c9
