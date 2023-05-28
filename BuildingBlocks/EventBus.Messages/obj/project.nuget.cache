@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1wyOeVPByzf9tIGFWb3HO6VORzflPsZGtvCyz1l7mN22qMfZmJXmen0CaS9WZH+4kMPbIa6vJYMe8Ix4tV/ung==",
+  "dgSpecHash": "AG9doTylV/Qh65SUaewMjhEAq1qRRCIEaq36QQKmDwFBmVqwBx+oYrQVN0zCG4wJi/KG9oLyIAkru0yCbreQQA==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\TurboMicroService\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
+  "projectFilePath": "G:\\GitHub\\TurboMicroService\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
