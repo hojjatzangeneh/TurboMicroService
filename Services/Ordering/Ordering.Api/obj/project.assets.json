@@ -8600,24 +8600,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Api\\Ordering.Api.csproj",
+      "projectUniqueName": "D:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Api\\Ordering.Api.csproj",
       "projectName": "Ordering.Api",
-      "projectPath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Api\\Ordering.Api.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Api\\obj\\",
+      "projectPath": "D:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Api\\Ordering.Api.csproj",
+      "packagesPath": "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Api\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\HojjatZangeneh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8631,11 +8626,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "G:\\GitHub\\TurboMicroService\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
-              "projectPath": "G:\\GitHub\\TurboMicroService\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj"
+            "D:\\GitHub\\TurboMicroService\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
+              "projectPath": "D:\\GitHub\\TurboMicroService\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj"
             },
-            "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
-              "projectPath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj"
+            "D:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
+              "projectPath": "D:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj"
             }
           }
         }

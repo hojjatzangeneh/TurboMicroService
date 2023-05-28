@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\GitHub\\TurboMicroService\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj": {}
+    "D:\\GitHub\\TurboMicroService\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj": {}
   },
   "projects": {
-    "G:\\GitHub\\TurboMicroService\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj": {
+    "D:\\GitHub\\TurboMicroService\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\GitHub\\TurboMicroService\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
+        "projectUniqueName": "D:\\GitHub\\TurboMicroService\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
         "projectName": "OcelotApiGw",
-        "projectPath": "G:\\GitHub\\TurboMicroService\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "G:\\GitHub\\TurboMicroService\\ApiGateways\\OcelotApiGw\\obj\\",
+        "projectPath": "D:\\GitHub\\TurboMicroService\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
+        "packagesPath": "C:\\Users\\HojjatZangeneh\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\TurboMicroService\\ApiGateways\\OcelotApiGw\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\HojjatZangeneh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
