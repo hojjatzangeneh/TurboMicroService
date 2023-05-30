@@ -6,11 +6,9 @@ using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Logging.ClearProviders().AddConsole().AddDebug();
-builder.Services.AddOcelot();
-builder.Host.ConfigureAppConfiguration((hosting, config) => { config.AddJsonFile($"ocelot.{hosting.HostingEnvironment.EnvironmentName}.json"); });
-
+builder.Configuration.SetBasePath(builder.Environment.ContentRootPath).AddJsonFile("ocelot.local.json",optional:false,reloadOnChange:true).AddEnvironmentVariables();
+builder.Services.AddOcelot(builder.Configuration);
 var app = builder.Build();
+await app.UseOcelot();
 
-app.MapGet("/", () => "Hello World!");
-app.UseOcelot();
 app.Run();
