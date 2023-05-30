@@ -61,7 +61,8 @@
       "UpstreamHttpMethod": [ "PUT", "POST" ]
     },
     {
-      "DownstreamPathTemplate": "/api/v1/ordering/{username}",
+      "DownstreamPathTemplate": "/api/v1/order/{username}",
+      "http": null, //localhost:8004/api/v1/order/hojjat
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -74,6 +75,6 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:5010"
+    "BaseUrl": "http://localhost:5010"
   }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l2OS39cVsRlLulCtHIUFroSDlX468mu6cp2+zyorhVOH+M8N4f6moW+dITFiwlY49FYWfi2Bd8TvdkE16Sz6YQ==",
+  "dgSpecHash": "nbjUwalOLH5iNQD295t4+O0R5K7JNcR01l/0qJtApVwhPzHsA0ZY63weQyRWL4Y2NBlS+Zjq2SUa0FofmV9GNg==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+  "projectFilePath": "G:\\GitHub\\TurboMicroService\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
